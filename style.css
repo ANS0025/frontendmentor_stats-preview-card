@@ -9,24 +9,24 @@ body{
 main{
     display: flex;
     flex-direction: row;
-    width: 1110px;
-    height: 446px;
+    width: 69.375rem;
+    height: 27.875rem;
     background: #1B1937;
-    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
-    border-radius: 8px;
+    box-shadow: 0rem 1.25rem 1.25rem -0.625rem rgba(23, 25, 41, 0.203087);
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 /* メインテキスト */
 /* ヘッダー */
 h1{
-    width: 404px;
-    margin-top: 71px;
-    margin-right: 95px;
-    margin-left: 71.5px;
+    width: 25.25rem;
+    margin-top: 4.4375rem;
+    margin-right: 5.9375rem;
+    margin-left: 4.4688rem;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     font-family: 'Inter';
 }
 h1 emphasis{
@@ -34,13 +34,13 @@ h1 emphasis{
 }
 /* 説明 */
 p{
-    width: 374px;
-    margin-top: 25px;
-    margin-left: 71.5px;
+    width: 23.375rem;
+    margin-top: 1.5625rem;
+    margin-left: 4.4688rem;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
     opacity: 0.75;
     font-family: 'Inter', sans-serif;
 }
@@ -48,32 +48,32 @@ p{
 info{
     display: flex;
     flex-direction: row;
-    margin-top: 72px;
-    margin-left: 71.5px;
+    margin-top: 4.5rem;
+    margin-left: 4.4688rem;
     color: #FFFFFF;
 }
 info num{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
 }
 info name{
-    margin-top: 2px;
+    margin-top: 0.125rem;
     font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 0.75rem;
+    letter-spacing: 0.0625rem;
     opacity: 0.6;
     font-family: 'Lexend Deca', sans-serif;
 }
 #company{
     display: flex;
     flex-direction: column;
-    margin-right: 63px;
+    margin-right: 3.9375rem;
 }
 #templates{
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
+    margin-right: 3.75rem;
 }
 #queries{
     display: flex;
@@ -94,7 +94,7 @@ info name{
 
 /* SP版
 -------------------------------------------------------------------------------- */
-@media (max-width: 767px){
+@media (max-width: 47.9375rem){
     body{
         display: flex;
         flex-direction: column;
@@ -106,53 +106,53 @@ info name{
     main{
         display: flex;
         flex-direction: column;
-        width: 327px;
-        height: 780px;
+        width: 20.4375rem;
+        height: 48.75rem;
     }
     /* メインテキスト */
     h1{
-        width: 264px;
-        margin-top: 40px;
-        margin-left: 31px;
-        font-size: 28px;
-        line-height: 32px;
+        width: 16.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1.9375rem;
+        font-size: 1.75rem;
+        line-height: 2rem;
         text-align: center;
     }
     p{
-        width: 264px;
-        margin-top: 16px;
-        margin-left: 31px;
-        font-size: 15px;
-        line-height: 25px;
+        width: 16.5rem;
+        margin-top: 1rem;
+        margin-left: 1.9375rem;
+        font-size: 0.9375rem;
+        line-height: 1.5625rem;
         text-align: center;
     }
     /* 詳細情報 */
     info{
         display: flex;
         flex-direction: column;
-        gap: 24px;
-        margin-top: 40px;
-        margin-left: 0px;
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+        margin-left: 0rem;
         text-align: center;
     }
     info num{
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-family: 'Inter', sans-serif;
     }
     info name{
-        margin-top: 2px;
+        margin-top: 0.125rem;
         font-weight: 400;
-        font-size: 12px;
-        letter-spacing: 1px;
+        font-size: 0.75rem;
+        letter-spacing: 0.0625rem;
         opacity: 0.6;
         font-family: 'Lexend Deca', sans-serif;
     }
     #company{
-        margin-right: 0px;
+        margin-right: 0rem;
     }
     #templates{
-        margin-right: 0px;
+        margin-right: 0rem;
     }
     /* メイン画像 */
     .pic{
@@ -164,8 +164,8 @@ info name{
     }
     #hero-sp{
         display: block;
-        width: 327px;
-        height: 240px;
+        width: 20.4375rem;
+        height: 15rem;
         opacity: 0.7;
     }
 }
